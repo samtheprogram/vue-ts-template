@@ -7,8 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prettier": "prettier",
-    "prettier:check": "prettier --check \"src/**/*.{vue,ts,json,scss,html}\"",
-    "prettier:write": "prettier --write \"src/**/*.{vue,ts,json,scss,html}\"",
+    "prettier:check": "prettier --check \"src/**/*.{vue,ts,json,scss,html,md}\"",
+    "prettier:write": "prettier --write \"src/**/*.{vue,ts,json,scss,html,md}\"",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "gitHooks": {
