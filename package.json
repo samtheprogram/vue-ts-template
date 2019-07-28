@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prettier": "prettier",
+    "prettier:check": "prettier --check \"src/**/*.{vue,ts,json,scss,html}\"",
+    "prettier:write": "prettier --write \"src/**/*.{vue,ts,json,scss,html}\""
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "prettier": "^1.18.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
